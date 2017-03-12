@@ -1,0 +1,32 @@
+{
+  "name": "generator-mu-plugins-wp",
+  "version": "0.0.1",
+  "description": "A generator for building the mu-plugins and including library files.",
+  "main": "index.js",
+  "author": "Jason Witt",
+  "engines": {
+    "node": ">=0.10.0"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^1.1.3",
+    "download-file": "^0.1.5",
+    "download-git-repo": "^0.2.1",
+    "xmlhttprequest": "^1.8.0",
+    "yeoman-generator": "^1.1.1",
+    "yosay": "^2.0.0"
+  },
+  "devDependencies": {
+    "fs-extra": "^0.16.5",
+    "mocha": "*"
+  }
+}
