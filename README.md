@@ -6,7 +6,7 @@
 
 The generator has two main functions.
 1. It will create a mu-plugins directory and populate it with a framework from a GitHub repo. For testing it is using https://github.com/jawittdesigns/mu-plugins ( work in progress ).
-2. It downloads files from a GitHub repo into the libray directory and edited the config.php file in the mu-plugins directory to enable the file. ( using https://github.com/jawittdesigns/code-lib for testing )
+2. It downloads files from a GitHub repo into the library directory and edited the config.php file in the mu-plugins directory to enable the file. ( using https://github.com/jawittdesigns/code-lib for testing )
 
 ## Requirements
 1. [NodeJS](https://nodejs.org/en/)
